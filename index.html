@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Snake - Pure JS</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app">
+      <h1>Snake</h1>
+      <div class="info">
+        <p>Wynik: <span id="score">0</span></p>
+        <p>Najlepszy: <span id="best">0</span></p>
+      </div>
+      <canvas id="board" width="400" height="400" aria-label="Plansza gry Snake"></canvas>
+      <p class="hint">Sterowanie: strzałki lub WASD · Spacja = pauza · Enter = restart</p>
+      <p id="status" class="status"></p>
+    </main>
+
+    <script src="snake.js"></script>
+  </body>
+</html>
